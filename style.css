@@ -1,0 +1,276 @@
+#IndexBody, #Reservations{
+	height: 1150px; 
+	margin: 0;
+}
+
+#CondosBody {
+	height: 1250px; 
+}
+#WhatToBody{
+	height: 800px; 
+}
+
+a {
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+}
+
+#column1 {
+	width: 20%; 
+	height: 700px; 
+	box-sizing: border-box; 
+	float: left;  
+	background-image: url("Pictures/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#column2{
+	width: 80%; 
+	box-sizing: border-box; 
+	float: left; 
+	
+}
+
+.nav{
+	background-color: #bee6f3;
+	text-align: left;
+	box-sizing: border-box;
+	line-height: 55px;
+	width: 100%;
+	margin: 0px;
+	padding-left: 35px; 
+}
+
+#Nav {
+	color: blue; 
+	text-decoration: none; 
+	font-size: 23px; 
+	display: block; 
+	margin-left: 20px; 
+	padding-top: 25px; 	
+}
+#Nav:hover {
+	color: #dddddd;
+}
+
+#container {
+	box-sizing: content-box;
+	border: 1px solid black; 
+	width: 70%; 
+	box-shadow: 2px 2px 2px black; 
+	margin-left: 200px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom:50px;
+	padding: 0px; 
+	background: White; 
+	overflow: hidden;  
+ 
+	
+}
+
+#container:after {
+	content:"";
+	display: table; 
+	clear: both; 
+}
+
+h1 {
+	font-size: 42px; 
+	color: White; 
+	width: 100%;
+	margin: 0px;
+	
+	
+}
+
+body{
+	background: linear-gradient(#39ace7,#cadeef,#cadeef,#39ace7);
+	background-repeat: no-repeat;
+	height: 200px; 
+
+}
+
+#headcolor {
+	background-image: url("Pictures/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0px;
+	height: 70px; 
+	line-height: 85px; 
+	padding-left: 40px; 
+	
+}
+
+#coast {
+	width: 100%; 
+}
+
+
+	
+#Mainh2 {
+	padding-left: 40px; 
+	color: #0099CC;
+	font-size: 28px;
+}
+
+#statement, li, #Address, #QuestionList {
+	font-size: 22px; 
+	
+}
+
+p {	
+	bottom: 0;
+	padding-left: 40px;
+	padding-right: 40px; 	
+	text-indent: 0px; 
+}
+
+#resort {
+	font-style: bold; 
+	font-size: 26px;
+	text-indent: 0; 
+}
+
+ul {
+	position: relative; 
+	padding-left: 60px; 
+	padding-right: 40px; 
+}
+
+h3 {
+	position: relative; 
+	padding-left: 40px; 
+	font-size: 26px;
+}
+
+#AfterResort, li, #Address, #Copyright, #Description {
+	color: #736e6d;
+}
+	
+#DestinT {
+	font-size: 26px;
+	color: black; 
+}
+	
+#Address {
+	display: block; 
+	
+}
+
+#Copyright {
+	font-style: italic; 
+	font-size: 14px; 
+	text-align: center; 
+}
+
+#Email {
+	margin-left: 240px; 
+	font-size: 13px; 
+	font-style: italic; 
+}
+
+#CondoInfo, #ReservationTitle{
+	padding-left: 30px;
+	color: #0099CC;
+	font-size: 28px;
+}
+
+#CondoPackages, #ActivityTitles {
+	color: black;
+	padding-left: 30px; 
+	font-weight: bold; 
+	font-size: 24px; 
+}
+
+.Questions, #ContactUs  {
+	font-size: 22px; 
+	font-weight: bold; 
+	padding-left: 30px; 
+	margin:0; 
+}
+
+
+#Description {
+	padding-left: 20px; 
+	padding-right: 40px; 
+	padding-bottom: 15px; 
+	word-wrap: break-word; 
+	width: 90%; 
+	display: block; 
+	font-size: 20px; 
+}
+#PackageInfo {
+	margin-left: 20px; 
+	margin-right: 40px; 
+	word-wrap: break-word; 
+	width: 90%; 
+	display: block; 
+	font-size: 20px; 
+	color: #736e6d;	
+}
+
+#QuestionList {
+	padding-right: 40px; 
+}
+
+#PackageTable {
+	margin-left: 120px; 
+	margin-right: 140px;
+	border: 1px solid #33CCFF; 
+}
+
+#PackageRow {
+	color: #736e6d;
+	font-size: 18px; 
+	font-weight: bold; 
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+	border: 1px solid #33CCFF;
+}
+
+.PackageData {
+	text-align: center;
+	color: #736e6d;	
+	border: 1px solid #33CCFF;
+}
+
+.PackageDataInfo{
+	color: #736e6d;
+	border: 1px solid #33CCFF;	
+}
+
+#ActivityTitles {
+	margin-bottom: 15px; 
+	margin-top: 15px; 
+	
+}
+
+#ActivityInfo {
+	color: #736e6d;
+}
+
+#RequiredInfo{
+	color: #736e6d; 
+	font-size: 20px; 
+}
+
+#ReservationForm {
+	margin-left: 40px; 
+	color: #736e6d;
+	font-size: 18px; 
+}
+
+
+#UserResInfo{
+	margin-left: 20px; 
+}
+
+
+
+	
+	
+	

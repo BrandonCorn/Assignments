@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang = "en">
+<head>
+	<title> Reservations </title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<div id = "container">
+<body id = "Reservations">
+
+</body>
+<header>
+	<div id = "headcolor">
+		<h1> Destin Trails Resort  </h1> 
+	</div>
+
+	<div id = "column1">
+	<nav>
+	<a id = "Nav" href = "index.html"  > Home </a>
+	<a id = "Nav" href =  "Condos.html"> Condos </a> 
+	<a id = "Nav" href = "WhatToDo.html" > What To Do </a> 
+	<a id = "Nav" href = "reservations.html"> Reservations </a> 
+	</nav>
+	</div>
+</header>
+<main style = "width: 70%;"> 
+	<div style = "float: left; width: 70%; height: 100%;">
+	<div> 
+		<h2 id = "ReservationTitle"> Reservations at Destin Trails </h2> 
+	</div>
+	<div>
+		<p id = "ContactUs"> Contact Us </p>
+		<p id = "RequiredInfo"> Required information is marked with an Asterick(*)</p>
+	</div>
+	<div>
+		<form id = "ReservationForm" action = "https://webdevbasics.net/scripts/pacific.php" method = "POST">
+			&nbsp; &nbsp; * First Name  <input id = "UserResInfo" type = "text" name "firstname" required> <br> <br>
+			&nbsp; &nbsp; * Last Name   <input id = "UserResInfo" type = "text" name "lastname" style = "margin-left: 22px;" required> <br> <br>
+			&nbsp; &nbsp; * Email <input id = "UserResInfo" type = "email" name "email" style = "margin-left: 56px;" required> <br> <br>
+			&nbsp; &nbsp; Phone <input id = "UserResInfo" type = "tel" name = "number" style = "margin-left: 67px;"> <br> <br>
+			&nbsp; &nbsp; Arrival Date <input id = "UserResInfo" type = "date" name = "date" style = "margin-left: 20px;"> <br> <br>
+			&nbsp; &nbsp; Nights <input id = "UserResInfo" type = "text" name = "nights stay" style = "width: 50px; margin-left: 63px;"> <br> <br>
+			&nbsp; &nbsp;  * Comments <textarea id = "UserResInfo" form = "comments" style = "vertical-align: top;" required>  </textarea> <br> <br>
+			<input style = "margin-left: 100px;" type = "submit" value = "submit" >
+		</form>
+	</div>
+	</div>
+</main>
+<footer>
+		<p id = "Copyright"> Copyright &copy; Destin Trails Resort </p>
+		<a id = "Email"  href = "mailto:brownjohn2626@gmail.com"> yourfirstname@yourlastname.com </a>
+</footer>
+</div>
+</html>
+	
